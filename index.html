@@ -49,7 +49,15 @@
     .boxes { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
     .box { background: #fff; width: 180px; padding: 10px; border: 1px solid #ddd; border-radius: 6px; text-align: center; }
     .box img { width: 100%; height: 100px; object-fit: cover; border-radius: 4px; }
-    .footer-licenses { margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; }
+    
+    /* Styling untuk footer-licenses agar rata tengah */
+    .footer-licenses {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center; /* Menjaga agar lisensi rata tengah */
+      gap: 20px; /* Jarak antar link lisensi */
+      flex-wrap: wrap; /* Agar lisensi bisa membungkus saat layar kecil */
+    }
   </style>
 </head>
 <body>
